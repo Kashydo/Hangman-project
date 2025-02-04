@@ -7,6 +7,27 @@ def view_menu():
     
 def view_quit():
     print("Goodbye!")
+    quit()
 
 def view_game_choice(dificulty):
     print("You chose ", dificulty, " difficulty")
+
+def view_category():
+    print ("Choose a category:")
+    print ("1. Countries")
+    print ("2. Capitals")
+    print("3. Go back")
+
+def view_difficulty_choice(difficulty):
+    print("You chose ", difficulty, " difficulty")
+   
+def view_category_choice(category):
+    print("You chose ", category)
+    print("Good luck!")
+
+def view_word(word_list):
+    length = len(word_list)
+    for i in range(length):
+        print("_", end=" ")
+
+    
