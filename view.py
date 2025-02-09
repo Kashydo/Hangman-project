@@ -25,9 +25,15 @@ def view_category_choice(category):
     print("You chose ", category)
     print("Good luck!")
 
-def view_word(word_list):
+def view_word_to_guess(word_list):
     length = len(word_list)
-    for i in range(length):
-        print("_", end=" ")
+    for i in word_list:
+        print(i, end=" ")
+
+def good_message():
+    print("Good Job")
+
+def wrong_message():
+    print("Wrong")
 
     

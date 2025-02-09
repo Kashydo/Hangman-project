@@ -1,6 +1,7 @@
-from view import *
 from model import *
+from view import *
 import constants as c
+
 def choose_difficulty():
     difficulty = 0
     view_menu()
@@ -22,6 +23,7 @@ def get_letter():
         letter = input("Enter a letter:")
     return letter.lower()
 
+                
 
         
             
